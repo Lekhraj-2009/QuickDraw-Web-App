@@ -1,0 +1,39 @@
+.body-background{
+    background-image: url("https://i.pinimg.com/originals/67/4e/e1/674ee1bb32f964afe775db04ed151599.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.header{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 60px;
+    margin-bottom: -2.5px;
+    margin-top: 10px;
+}
+hr{
+    border-color: black;
+    width: 90%;
+}
+ul{
+    width: 80%;
+    text-align: left;
+}
+#play{
+    width: 105px;
+}
+span{
+    animation-name: forward-backward;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes forward-backward {
+    0%{padding-left: 3.5px;}
+    50%{padding-left: 1.5px;}
+    100%{padding-left: 3.5px;}
+}
